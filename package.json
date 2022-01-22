@@ -1,0 +1,20 @@
+{
+  "name": "closedpond",
+  "version": "1.0.0",
+  "description": "a pisstake of opensea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist"
+  },
+  "author": "rin",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1",
+    "typescript": "^4.5.5",
+    "web3": "^1.7.0"
+  }
+}
